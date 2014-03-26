@@ -3,3 +3,7 @@
 /// <reference path="../src/game.js" />
 /// <reference path="../src/scenes.js" />
 /// <reference path="../src/components.js" />
+/// <reference path="../src/JavaScript.js" />
+/// <reference path="../src/JavaScript2.js" />
+/// <reference path="../lib/create_mocks_module.js" />
+/// <reference path="../lib/tiledmapbuilder.js" />

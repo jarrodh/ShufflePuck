@@ -2,7 +2,7 @@
 
 Game = {
     map_grid: {
-        width: 30,
+        width: (80-10), //80 gives width of 1280px reducing by a 160px (10*16) just to fit in browser for debuging
         height: 20,
         tile: {
             width: 16,
@@ -21,9 +21,7 @@ Game = {
 
     start: function () {
         Crafty.init(Game.width(), Game.height(), document.getElementById('game'));
-        //Crafty.background('orange');
 
         Crafty.scene('loading');
-        this.leftPaddle = Crafty.e('paddle');//.at(5, 5);
     }
 }
